@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 5, 8);
+}
+.imgtopo {
+  display: flex;
+  width: 80vwpx;
+  height: 50vw;
+  margin-left: -50px;
+}
+h1 {
+    font-style: normal;
+   font-family: "Pacifico", cursive;
+    font-weight: 800;
+  font-size: 100px;
+  margin-top: -45vw;
+  margin-left: 51vw;
+  color: rgb(148, 145, 145);
+  
+}
+h5 {
+  margin-top: 20px;
+  margin-left: 50vw;
+}
+
+h5 {
+  font-style: italic;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  background: linear-gradient(
+    10deg,
+    #ffffff 0%,
+    black 20%,
+    #ffffff 40%,
+    black 60%,
+    #ffffff 80%,
+    black 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: brilho-movel 20s linear infinite;
+}
+
+@keyframes brilho-movel {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+p {
+  margin-top: 10vw;
+   font-size: 30px;
+  margin-left: 50vw;
+  color: #ffffff;
+    font-family: Arial, sans-serif;
+  font-weight: 200;
+}
