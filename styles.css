@@ -18,24 +18,20 @@
 h1 {
   font-style: normal;
   font-family: "Parisienne", cursive;
-  font-weight: 800;
-  font-size: 70px;
-  margin-top: -75vh;
-  margin-left: 38vw;
+  
+  font-size: 100px;
+  margin-top: -60vh;
+  margin-left: 45vw;
   color:#5e2c04;;
 }
-h5 {
-  margin-top: 80px;
-  margin-left: 50vw;
-  
-}
+
 
 h5 {
-  margin-top: 10px;
-  margin-left: 570px;
+  margin-top: 20px;
+  margin-left: 42vw;
   font-style: italic;
   font-family: "Great Vibes", cursive;
-  font-size: 25px;
+  font-size: 55px;
   background: linear-gradient(
     10deg,
     #ffffff 0%,
@@ -63,12 +59,12 @@ h5 {
 }
 
 p {
-  margin-top: 8vw;
-  font-size: 16px;
-  margin-left: 43vw;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 60vw;
   color: rgb(148, 145, 145);
   font-family: Arial, sans-serif;
-  font-weight: 200;
+  
   font-style: italic;
 }
 
@@ -79,7 +75,7 @@ p {
   background-color: rgb(236, 201, 229);
   
   height: 35vw;
-  margin-top: 7vw;
+  margin-top: 33vw;
   margin-left: 4vw;
   padding: 16px;
    gap: 60px;
@@ -134,4 +130,35 @@ p {
   margin-left: 26vw;
   margin-top: 2px;
 }
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .imgtitulo h1 {
+        font-size: 120px;
+    }
+
+    .imgtitulo p {
+        max-width: 900px;
+        margin: left: -10px;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .cards1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
 
