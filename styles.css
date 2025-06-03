@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +9,7 @@
 .imgtitulo {
   width: 100%;
   height: auto;
+  background-color: aliceblue;
 }
 .imgtopo {
   width: 38vw;
@@ -18,24 +19,23 @@
 h1 {
   font-style: normal;
   font-family: "Parisienne", cursive;
-  
+
   font-size: 120px;
   margin-top: -60vh;
   margin-left: 43vw;
-  color:#5e2c04;;
+  color: #5e2c04;
 }
 
-.card{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-
-.card:hover {
-  transform: scale(1.05); /* aumenta levemente */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  .card:hover {
+    transform: scale(1.05); /* aumenta levemente */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
 }
-}
-
 
 h5 {
   margin-top: 20px;
@@ -75,7 +75,7 @@ p {
   margin-left: 45vw;
   color: rgb(148, 145, 145);
   font-family: Arial, sans-serif;
-  
+
   font-style: italic;
 }
 
@@ -84,23 +84,20 @@ p {
   display: flex;
   justify-content: center;
   background-color: rgb(230, 236, 241);
-  
+
   height: 250px;
   margin-top: 9vw;
   margin-left: 4vw;
   padding: 16px;
-   gap: 60px;
+  gap: 60px;
   flex-wrap: wrap;
 }
-
 
 .card img {
   width: 100%;
   height: 370px;
   border-top-left-radius: 6px;
- border-top-right-radius: 6px;
- 
-  
+  border-top-right-radius: 6px;
 }
 .card h3 {
   color: #5e2c04;
@@ -112,133 +109,156 @@ p {
   background-color: transparent; /* garante que o fundo do texto seja transparente */
 }
 
-.card-text{
+.card-text {
   color: #5e2c04;
   text-align: center;
   font-size: 2rem;
 }
-.topo{
+.topo {
   margin-left: 29vw;
   margin-bottom: -90px;
   margin-top: 20px;
-
 }
-.logo{
-   width: 170px;       /* Define o tamanho da imagem */
-  height: 170px;      /* Mantém a proporção 1:1 para formar um círculo */
+.logo {
+  width: 170px; /* Define o tamanho da imagem */
+  height: 170px; /* Mantém a proporção 1:1 para formar um círculo */
   border-radius: 50%; /* Torna a imagem circular */
-  object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorcer */
+  object-fit: cover; /* Garante que a imagem preencha o círculo sem distorcer */
   border: 2px solid #a0522d;
   margin-left: 30vw;
   margin-bottom: -80px;
 }
-footer{
+footer {
   width: 100%;
   height: 150px;
   background-color: aqua;
 
-margin: 0px;
-font-size: 1px;
-font-weight: bold;
-text-align: center;
+  margin: 0px;
+  font-size: 1px;
+  font-weight: bold;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
-  *{
+  * {
     overflow-x: hidden;
-  } 
+  }
   body {
-      overflow-x: hidden;
-      flex-direction: column;
-        font-size: 20px;
-       height: 100vh;
-    }
-    .logo{
-      margin-left: 10px;
-      width: 90px;
-      height: 90px;
-      margin-top: 5px;
-      margin-bottom: 10px;
-    }
-    hr{
-      margin-top: 5px;
-      border: none;
-      height: 4px;              /* Espessura da linha */
-      background-color: #f072e5;   /* Cor da linha */
-      width: 100%; 
-      
-    }
-    .imgtopo{
-      margin-left: auto;
-      margin-top: 170px;
-      width: 290px;
-      height: 290px;
-
-    }
-
-    .imgtitulo h1 {
-        margin: 5px -5px -5px;
-      justify-content: center;
-      margin-top: 10px;
-        font-size: 55px;
-        text-align: center;
-    }
-    h5{
-      justify-content: center;
-      font-size: 21px;
-      margin-left: auto;
-      text-align: center;
-    }
-
-    .imgtitulo p {
-      margin-left: auto;
-        justify-content: center;
-        font-size: 15px;
-    }
-
-   .cards1 {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: column; /* Organiza em coluna (um abaixo do outro) */
-  align-items: center;    /* Centraliza os cards horizontalmente */
-  justify-content: center;
-  flex-wrap: nowrap;      /* Impede que quebrem para o lado (opcional) */
-  gap: 20px;
-  padding: 10px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    flex-direction: column;
+    font-size: 20px;
+    height: 100vh;
+  }
+  .logo {
+   
+    margin-left: 35px;
+    width: 320px;
+    height: 320px;
+    margin-top: 7px;
+    margin-bottom: -120px;
+  }
+  .divlogo{
+     
   
-  background-color: transparent;
-}
-
-}
-
-
-  .card{
-     background-color: rgb(226, 233, 236);
-  border-radius: 25px;
-  width: 90vw;
-  max-width: 350px;
-  height: 400px; 
- margin: 15px;
- border-bottom-left-radius: 6px;
- border-bottom-right-radius: 6px;
- border-top-left-radius: 6px;
- border-top-right-radius: 6px;
+  
+    display: flex;
+     margin-bottom: -220px;
+    width: 100vw;
+    height: 84vh;
+    background-image: url(img/Post\ instagram\ churros\ de\ doce\ de\ leite\ fotográfico\ em\ branco\ e\ marrom.png);
+     background-size: cover; /* Ajusta o tamanho para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
   }
-  .card img{
+  hr {
+    margin-top: 5px;
+    border: none;
+    height: 4px; /* Espessura da linha */
+    background-color: #f072e5; /* Cor da linha */
     width: 100%;
-    height: 220px;
   }
-  .card{
-  box-shadow: rgba(243, 0, 142, 0.25) 0px 20px 35px, rgba(243, 0, 142, 0.25) 0px 20px 35px;
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  .imgtopo {
+    margin-left: auto;
+    margin-top: 16px;
+    width: 320px;
+    height: 290px;
+    border-top-right-radius: 30px;
+  }
 
+  .imgtitulo h1 {
+    margin: 5px -5px -5px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 55px;
+    text-align: center;
   }
+  h5 {
+    justify-content: center;
+    font-size: 21px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .imgtitulo p {
+    margin-left: auto;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .cards1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Organiza em coluna (um abaixo do outro) */
+    align-items: center; /* Centraliza os cards horizontalmente */
+    justify-content: center;
+    flex-wrap: nowrap; /* Impede que quebrem para o lado (opcional) */
+    gap: 20px;
+    padding: 10px;
+
+    background-color: transparent;
+  }
+}
+
+.card {
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 70vw;
+  max-width: 350px;
+  height: 400px;
+  margin: 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  
+}
+.card h3 {
+  color: #f072e5;
+  margin-top: 240px;
+  align-items: center;
+  margin-left: -180px;
+}
+.card img {
+  width: 80%;
+  height: 220px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.card {
+  box-shadow: rgba(243, 0, 142, 0.25) 0px 14px 28px,
+    rgba(243, 0, 142, 0.25) 0px 14px 28px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 .card:hover {
   transform: scale(1.05); /* aumenta levemente */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.footer{
+.footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 60px;
@@ -248,27 +268,21 @@ text-align: center;
   justify-content: center;
   margin-left: auto;
 }
-.footer p{
-  
- color:black;
- background-color: transparent;
-   text-align: center;
+.footer p {
+  color: black;
+  background-color: transparent;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   font-size: 15px;
   margin: 0px;
 }
- a{
-   background: none;         /* Remove qualquer fundo */
+a {
+  background: none; /* Remove qualquer fundo */
   background-color: transparent; /* Alternativa */
-  color: blue;              /* Mantém ou redefine a cor do texto */
+  color: blue; /* Mantém ou redefine a cor do texto */
   text-decoration: none;
   font-size: 20px;
   color: black;
-
- }       
-
-
-
-
+}
