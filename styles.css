@@ -123,19 +123,37 @@ p {
 }
 
 .footer {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: rgb(1, 46, 46);
   text-align: center;
   padding: 1px;
-  font-size: 2vw;
+  font-size: 3vw;
+  margin: 5px;
+  
 }
-footer a {
+.direitos p {
+    font-size: 3vw;
   color: rgb(155, 173, 173);
   text-decoration: none;
-  margin-top: 20px;
-  width: 10px;
-  height: 10px;
+ 
 }
-.zap {
-  width: 30px;
-  height: 30px;
+.midia img{
+
+    width: 4vw;
+    height: 4vh;
+    margin: 5px;
+    
+}
+.midia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold;
+    text-decoration: none;
+}
+
+.midia a{
+    color: rgb(155, 173, 173);
+    text-decoration: none;
 }
