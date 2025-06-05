@@ -1,118 +1,141 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: rgb(0, 2, 3);
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 .divlogo {
-    display: flex;
-    justify-content: center;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  background-image: url("img/Post\ instagram\ compre\ brownie\ doces\ moderno\ em\ bege\ e\ vermelho\ \(1\).png");
 }
 
 .logo {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #a0522d;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #a0522d;
 }
 
 .imgtitulo {
-    text-align: center;
-    background-color: aliceblue;
-    padding: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
 }
 
 .imgtopo {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-top-right-radius: 20px;
 }
 
 h1 {
-    font-family: "Parisienne", cursive;
-    font-size: 6vw;
-    color: #5e2c04;
-    margin-top: 20px;
+  font-family: "Parisienne", cursive;
+  font-size: 6vw;
+  color: #5e2c04;
+  margin-top: 20px;
 }
 
 h5 {
-    font-family: "Great Vibes", cursive;
-    font-size: 3vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: linear-gradient(10deg, #ffffff 0%, rgb(196, 57, 214) 20%, #ffffff 40%, black 60%, #ffffff 80%, black 100%);
-    background-size: 200% auto;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: brilho-movel 20s linear infinite;
+  font-family: "Great Vibes", cursive;
+  font-size: 3vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    rgb(196, 57, 214) 20%,
+    #ffffff 40%,
+    black 60%,
+    #ffffff 80%,
+    black 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: brilho-movel 20s linear infinite;
 }
 
 @keyframes brilho-movel {
-    0% {
-        background-position: 200% center;
-    }
-    100% {
-        background-position: -200% center;
-    }
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
 }
 
 p {
-    font-size: 2vw;
-    margin: 20px auto;
-    color: rgb(148, 145, 145);
-    text-align: center;
+  font-size: 2vw;
+  margin: 20px auto;
+  color: rgb(148, 145, 145);
+  text-align: center;
 }
 
 .cards1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: rgb(230, 236, 241);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(230, 236, 241);
 }
 
 .card {
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px;
-    max-width: 100%;
-    text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
 }
 
 .card h3 {
-    color: #5e2c04;
-    font-family: "Great Vibes", cursive;
-    font-style: italic;
-    font-size: 2vw;
-    margin-top: 10px;
+  color: #5e2c04;
+  font-family: "Great Vibes", cursive;
+  font-style: italic;
+  font-size: 2vw;
+  margin-top: 10px;
 }
 
 .footer {
-    background-color: aqua;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5vw;
+  background-color: rgb(1, 46, 46);
+  text-align: center;
+  padding: 1px;
+  font-size: 2vw;
+}
+footer a {
+  color: rgb(155, 173, 173);
+  text-decoration: none;
+  margin-top: 20px;
+  width: 10px;
+  height: 10px;
+}
+.zap {
+  width: 30px;
+  height: 30px;
 }
