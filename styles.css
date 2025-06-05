@@ -142,7 +142,7 @@ p {
 
     width: 4vw;
     height: 4vh;
-    margin: 5px;
+    margin-right: -15vw;
     
 }
 .midia{
@@ -151,6 +151,9 @@ p {
     justify-content: center;
     font: bold;
     text-decoration: none;
+    justify-content: space-around;
+  
+    
 }
 
 .midia a{
