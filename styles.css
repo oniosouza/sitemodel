@@ -94,12 +94,13 @@ p {
 .card {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+  box-shadow: rgba(243, 108, 248, 0.966) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 300px;
   max-width: 100%;
   text-align: center;
+   overflow-wrap: break-word;
 }
 
 .card:hover {
@@ -108,10 +109,28 @@ p {
 }
 
 .card img {
-  width: 100%;
+  width: 90%;
   height: 220px;
+  margin-top: 11px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
+}
+button{
+
+  color: aliceblue;
+  background-color: rgb(236, 147, 214);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 6px;
+  width: auto;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover {
+  transform: scale(1.00);
+  box-shadow: 0 8px 20px rgb(7, 235, 216);
+  background-color: aqua;
+  color: black;
 }
 
 .card h3 {
